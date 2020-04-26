@@ -11,13 +11,15 @@
 <?php
 function createBox()
 {
-    echo "<h1 style='color: red; text-align: center; border: 1px solid green'>  
-          Hello my name is Nam!  
-           </h1>";
+    $value = "<h1 style='color: red; text-align: center; border: 1px solid green'>  
+              Hello my name is Nam!  
+              </h1>";
+
+    return $value;
 }
 
-$result = createBox();
-echo $result;
+createBox();
+createBox();
 
 ?>
 
